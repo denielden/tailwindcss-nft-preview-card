@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [github](https://github.com/denielden/tailwindcss-nft-preview-card)
-- Live Site URL: [live site](https://denielden.github.io/tailwindcss-nft-preview-card)
+- Live Site URL: [live site](https://denielden.github.io/tailwindcss-nft-preview-card/src)
 
 ## My process
 
