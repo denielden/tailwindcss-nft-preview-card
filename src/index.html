@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="author" content="Deniel Den">
+  <link rel="shortcut icon" href="img/favicon.svg" type="image/svg+xml">
+  <title>NFT preview card component | Frontend Mentor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet"> 
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <main class="flex justify-center items-center h-screen bg-blue px-4 sm:px-0">
+    <div class="w-80 p-6 rounded-2xl bg-card-blue h-max text-soft-blue text-lg font-normal shadow-xl">
+      <a href="javascript:void(0)" class="block relative rounded-md overflow-hidden mb-6" title="Equilibrium">
+        <div class="absolute w-full h-full flex justify-center items-center hover:bg-cyan opacity-0 hover:opacity-100 bg-opacity-0 hover:bg-opacity-70 hover:transition-opacity hover:duration-700">
+          <img src="img/icon-view.svg" class="w-14" title="View image" alt="View icon">
+        </div>
+        <img src="img/image-equilibrium.webp" loading="lazy" alt="Equilibrium">
+      </a>
+      
+      <h1 class="text-2xl font-semibold mb-4">
+        <a class="text-white hover:text-cyan" title="Equilibrium #3429" href="javascript:void(0)">Equilibrium #3429</a>
+      </h1>
+      <p class="mb-5">Our Equilibrium collection promotes balance and calm.</p>
+      
+      <div class="flex justify-between items-center border-b border-line pb-5 mb-4">
+        <div class="flex items-center text-cyan">
+          <img src="img/icon-ethereum.svg" loading="lazy" alt="Ethereum icon">
+          <p class="font-semibold tracking-wide ml-1">0.041 ETH</p>
+        </div>
+        <div class="flex items-center">
+          <img src="img/icon-clock.svg" loading="lazy" alt="Clock days icon">
+          <p class="text-base ml-2">3 days left</p>
+        </div>
+      </div>
+      <div class="flex items-center mb-2">
+        <img src="img/image-avatar.webp" class="w-9 border border-white rounded-full" loading="lazy" alt="Avatar"> 
+        <p class="text-base ml-4">Creation of <a class="text-white hover:text-cyan" title="Jules Wyvern" href="javascript:void(0)">Jules Wyvern</a></p>
+      </div>
+    </div>
+  </main>
+  
+</body>
+</html>
